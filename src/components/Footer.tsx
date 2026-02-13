@@ -11,7 +11,7 @@ export function Footer() {
                 <Bus className="h-6 w-6 text-primary-foreground" />
               </div>
               <span className="font-serif text-2xl font-bold text-foreground">
-                Bus<span className="text-primary">Yatra</span>
+                Bus<span className="text-primary">OnGo</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
@@ -64,7 +64,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2 text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>support@busyatra.in</span>
+                <span>support@Busongo.in</span>
               </li>
               <li className="flex items-start gap-2 text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
@@ -75,7 +75,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} BusYatra. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} BusOnGo. All rights reserved.</p>
         </div>
       </div>
     </footer>
